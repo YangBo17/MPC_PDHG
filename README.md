@@ -24,6 +24,12 @@ The shift warm start strategy can speed up the optimization process by setting t
 
 ## package requirements
 
+The julia version we use is:
+
+```
+julia v1.9.4
+```
+
 The package we use for code test are:
 
 ```
@@ -40,3 +46,11 @@ Plots v1.38.8
 ```
 
 For compatibility constraints, ```TensorOperations``` requires that ```CUDA``` version \< v4.1.4.
+
+## Julia environment setup
+
+```
+julia> ]
+(@v1.9) pkg> activate .
+(@v1.9) pkg> instantiate
+```
